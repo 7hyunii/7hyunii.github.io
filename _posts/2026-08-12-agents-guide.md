@@ -22,7 +22,7 @@ math: true
 | 프로젝트 개요 | "Spring Boot 주문 API" |
 | 코드 스타일 지침 | "생성자 주입, @Data 금지" |
 | 금지 구역 | "migration 기존 파일 수정 금지" |
-| 빌드•테스트 명령 | "`./gradlew build`, `./gradlew test`" |
+| 빌드•테스트 명령 | "./gradlew build, ./gradlew test" |
 | 테스트 지침 | "통합 테스트: Testcontainers" |
 | 보안 고려 사항 | "로그에 토큰·주민번호 금지" |
 | 커밋•PR 지침 | "Conventional Commits, PR에 관련 이슈 기재" |
