@@ -18,14 +18,14 @@ math: true
 
 ### 권장 항목
 | 항목 | 예시 |
-| --- | --- |
-| 프로젝트 개요 | "Spring Boot 3.4 + JPA 기반 주문 API. domain/application/infra 3계층" |
-| 코드 스타일 지침 | "생성자 주입만 사용. @Data 금지. DTO는 record로 선언" |
-| 금지 구역 | "`src/main/resources/db/migration/` 기존 파일 수정 금지" |
-| 빌드•테스트 명령 | "`./gradlew build /`, `./gradlew test /`" |
-| 테스트 지침 | "통합 테스트는 Testcontainers 사용" |
-| 보안 고려 사항 | "응답 로그에 토큰·주민번호 출력 금지. 시크릿은 환경변수로만 주입" |
-| 커밋•PR 지침 | "Conventional Commits 준수(feat, fix, docs, refactor, test). PR 작성 시 관련 이슈 번호 필수 기재" |
+| --- | ---------- |
+| 프로젝트 개요 | "Spring Boot 주문 API" |
+| 코드 스타일 지침 | "생성자 주입, @Data 금지" |
+| 금지 구역 | "migration 기존 파일 수정 금지" |
+| 빌드•테스트 명령 | "`./gradlew build`, `./gradlew test`" |
+| 테스트 지침 | "통합 테스트: Testcontainers" |
+| 보안 고려 사항 | "로그에 토큰·주민번호 금지" |
+| 커밋•PR 지침 | "Conventional Commits, PR에 관련 이슈 기재" |
 
 ### 계층 구조 예시
 - 하위 패키지의 AGENTS.md는 상위 AGENTS.md 뒤에 이어붙어 함께 적용된다
