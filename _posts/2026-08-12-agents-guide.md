@@ -17,6 +17,7 @@ math: true
 > [AGENTS.md 공식 사이트](https://agents.md/) 참고
 
 ### 권장 항목
+
 | 항목 | 예시 |
 | --- | ---- |
 | 프로젝트 개요 | "Spring Boot 주문 API" |
